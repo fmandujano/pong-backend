@@ -29,7 +29,7 @@ if( mysqli_num_rows($result) > 0 )
 }
 else
 {
-    echo "0 resultados.";
+    echo "ERROR: user does not exist";
 }
 
 ?>
